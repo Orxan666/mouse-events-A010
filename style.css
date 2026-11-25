@@ -1,0 +1,59 @@
+.open-box {
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  background-color: red;
+  padding: 25px;
+  font-size: 25px;
+  color: white;
+  border-radius: 50%;
+}
+
+#chat {
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  border: 2px solid red;
+  height: 450px;
+  width: 250px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+#chat header {
+  background-color: red;
+  padding: 20px 15px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+#chat header .nav-ico {
+  cursor: pointer;
+}
+#chat main {
+  height: 328px;
+  overflow-y: scroll;
+  background-image: url("https://www.topgear.com/sites/default/files/2024/12/54196859052_9249719e93_o.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#chat main .message {
+  padding: 10px;
+  margin: 15px;
+  width: 51%;
+  border-radius: 20px;
+  position: relative;
+}
+#chat main .message .time {
+  right: 15px;
+  color: grey;
+  position: absolute;
+  top: 100%;
+}
+#chat main .message.support {
+  background-color: red;
+  float: left;
+}
+#chat main .message.user {
+  background-color: aqua;
+  float: right;
+}/*# sourceMappingURL=style.css.map */
